@@ -3,7 +3,7 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Damn Prison</title>
+        <title>BITS - Damn Prison</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="bits's game damn prison" name="description"/>
@@ -44,7 +44,7 @@
                         <div class="logo">
                             <a class="logo-wrap" href="index.html">
                                 <img class="logo-img logo-img-main" src="img/logo.png" alt="BITS Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="BITS Logo">
+                                <img class="logo-img logo-img-active" src="img/logo.png" alt="BITS Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -54,7 +54,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html#about">About</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html#team">Team</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html#portfolio">Portfolio</a></li>
@@ -69,14 +69,31 @@
         </header>
         <!--========== END HEADER ==========-->
 
-        <!--========== PARALLAX ==========-->
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/02.jpg">
-            <div class="parallax-content container">
-                <h1 class="carousel-title">Damn Prison</h1>
-                <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+        <!--========== SLIDER ==========-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Damn Prison Print 1">
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/1920x1080/04.jpg" alt="Damn Prison Print 2">
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/1920x1080/03.jpg" alt="Damn Prison Print 3">
+                </div>
             </div>
         </div>
-        <!--========== PARALLAX ==========-->
+        <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
         <!-- Promo Section -->
@@ -93,7 +110,7 @@
                     <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
                 </div>
                 <div class="col-sm-4 col-sm-offset-1">
-                    <img class="img-responsive" src="img/640x380/01.jpg" alt="Our Office">
+                    <img class="img-responsive" src="img/640x380/ringgamejam.jpg" alt="Our Office">
                 </div>
             </div>
         </div>
@@ -119,7 +136,7 @@
                             <!-- End List -->
                         </div>
                         <div class="col-sm-6 sm-margin-b-30">
-                            <h2 class="color-white">Send Us A Note</h2>
+                            <h2 class="color-white">Send us a note</h2>
                             <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
                             <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
                             <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
@@ -138,9 +155,7 @@
                     <div class="col-xs-6">
                         <img class="footer-logo" src="img/logo.png" alt="BITS Logo">
                     </div>
-                    <div class="col-xs-6 text-right">
-                        
-                    </div>
+                    <div class="col-xs-6 text-right"></div>
                 </div>
                 <!--// end row -->
             </div>
